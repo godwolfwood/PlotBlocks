@@ -1,0 +1,43 @@
+/*CSS reset settings here*/
+*{
+ /*added margin to all*/
+ margin: 5px;
+ padding: 0px;
+}
+#wrapper{
+ width: 950px;
+ background-color: silver;
+ margin: 0px auto;
+ /*added padding only to wrapper*/
+ padding: 5px;
+}
+#header{
+ height: 150px;
+ background-color: green;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+ /*allign to left*/
+ float: left;
+}
+#main_content{
+ height: 400px;
+ width: 680px;
+ background-color: red;
+ /*change block to inline-block*/
+ display: inline-block;
+}
+.subcontents{
+ height: 200px;
+ width: 210px;
+ background-color: yellow;
+ /*change block to inline-block*/
+ display: inline-block;
+}
+#advertisement{
+ height: 120px;
+ width: 660px;
+ background-color: purple;
+}
